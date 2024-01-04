@@ -1,1 +1,14 @@
+// Example extension config file
 
+{
+  "type": "crm-card",
+  "data": {
+    "title": "Example Card",
+    "location": "crm.record.tab",
+    "uid": "unique-extension-name",
+    "module": {
+      "file": "Example.jsx"
+    },
+    "objectTypes": [{ "name": "contacts" }]
+  }
+}
